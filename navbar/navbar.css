@@ -18,6 +18,8 @@ p#title {
     line-height: 50px;
 
     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 
     color: #FFFFFF;
 }
@@ -89,8 +91,13 @@ input#search {
     color: #FFFFFF;
 
     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .material-symbols-outlined {
     color: #FFFFFF;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
