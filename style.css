@@ -1,6 +1,8 @@
 body {
     margin: 0;
     background: #000000;
+    width: 1366px;
+    height: 617px;
 }
 
 p {
@@ -12,8 +14,8 @@ p {
 main {
     margin: 30px auto auto;
 
-    width: 1500px;
-    height: 843.75px;
+    width: 860px;
+    height: 484px;
 
     display: flex;
     flex-direction: column;
@@ -26,7 +28,7 @@ main {
     box-sizing: border-box;
 
     width: 100%;
-    height: 500px;
+    height: 250px;
 
     background: #000000;
     border: 5px solid #343434;
@@ -34,8 +36,8 @@ main {
 }
 
 #news-area {
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
 
     background: #343434;
     border-radius: 30px;
@@ -47,12 +49,12 @@ main {
 #news-title {
     position: relative;
     left: 20px;
-    top: 7.5px;
+    top: 13.5px;
 
     font-family: 'Poppins', serif;
     font-weight: 500;
-    font-size: 50px;
-    line-height: 75px;
+    font-size: 25px;
+    line-height: 38px;
 
     color: #FFFFFF;
 
@@ -63,13 +65,13 @@ main {
     box-sizing: border-box;
     position: relative;
     left: 20px;
-    top: 42.5px;
+    top: 14.38px;
     padding-right: 45px;
 
     font-family: 'Poppins', serif;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 7.5px;
+    line-height: 11px;
 
     color: #FFFFFF;
 
@@ -78,24 +80,24 @@ main {
 
 #news-playbutton {
     position: absolute;
-    left: 150px;
-    top: 380px;
+    left: 75px;
+    bottom: 31.12px;
 
-    width: 200px;
-    height: 50px;
+    width: 100px;
+    height: 25px;
 
     background: #FF0000;
     border-radius: 30px;
 }
 
 #news-playtext {
-    width: 200px;
-    height: 50px;
+    width: 100px;
+    height: 25px;
 
     font-family: 'Poppins', serif;
     font-weight: 500;
-    font-size: 25px;
-    line-height: 50px;
+    font-size: 12.5px;
+    line-height: 25px;
     text-align: center;
 
     color: #FFFFFF;
@@ -109,17 +111,17 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 250px;
+    padding: 0 175px;
 
     width: 100%;
-    height: 467.5px;
+    height: 233.75px;
 }
 
 .game {
     box-sizing: border-box;
 
-    width: 150px;
-    height: 200px;
+    width: 75px;
+    height: 100px;
 
     border: 1px solid #FFFFFF;
 }
@@ -127,28 +129,28 @@ main {
 .picture {
     box-sizing: border-box;
 
-    margin-left: 25px;
-    margin-top: 15px;
+    margin-left: 12.5px;
+    margin-top: 12.5px;
 
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 
     border: 1px solid #FFFFFF;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .game-title {
     box-sizing: border-box;
 
-    margin: 10px 0 0 0;
+    margin: 5px 0 0 0;
     padding: 0 5px;
     width: 100%;
     min-height: 30px;
 
     font-family: 'Poppins', serif;
     font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 12.5px;
+    line-height: 15px;
     display: flex;
     align-items: flex-end;
     text-align: center;
